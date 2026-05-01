@@ -46,11 +46,6 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 DATABASE_URL="postgresql://user:password@host/database?sslmode=require"
 ```
 
-Optional for production Clerk webhooks:
-
-```env
-CLERK_WEBHOOK_SECRET=whsec_...
-```
 
 ## Local Setup
 
