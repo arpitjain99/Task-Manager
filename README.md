@@ -2,6 +2,10 @@
 
 TeamFlow is a full-stack team task manager where users can create projects, add team members, assign tasks, and track progress with Admin/Member role-based access.
 
+## Live Demo
+
+https://task-manager-production-1507.up.railway.app
+
 ## Features
 
 - Clerk signup and login
@@ -46,38 +50,6 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 DATABASE_URL="postgresql://user:password@host/database?sslmode=require"
 ```
 
-
-## Local Setup
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Push the Prisma schema to the database:
-
-```bash
-npx prisma db push
-```
-
-Generate Prisma Client:
-
-```bash
-npx prisma generate
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:3000
-```
 
 ## Deployment
 
